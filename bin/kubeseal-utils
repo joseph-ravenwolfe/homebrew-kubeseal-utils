@@ -81,8 +81,6 @@ case "$COMMAND" in
             exit 1
         fi
 
-        $DIR/install-deps
-
         # Get current kubectl context
         banner "Checking K8s context"
         CURRENT_CONTEXT=$(kubectl config current-context)
