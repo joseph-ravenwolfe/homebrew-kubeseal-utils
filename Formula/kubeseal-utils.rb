@@ -1,8 +1,8 @@
 class KubesealUtils < Formula
   desc "Command line utility for working with Kubernetes sealed secrets"
   homepage "https://github.com/joseph-ravenwolfe/kubeseal-utils"
-  url "https://github.com/joseph-ravenwolfe/homebrew-kubeseal-utils/archive/v0.1.1.tar.gz"
-  sha256 "cc4380c50f6f8b665287449591070eedb0e9bae8037fe55e52b6b1b17d33cf44"
+  url "https://github.com/joseph-ravenwolfe/homebrew-kubeseal-utils/archive/v0.2.0.tar.gz"
+  sha256 "9c36a6eba485af964a8767f461f8413452944cfa3c658ab21f3936d37037dfde"
   license "MIT"
 
   depends_on "jq"
